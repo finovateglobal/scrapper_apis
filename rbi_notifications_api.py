@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 
 # Replace with your actual PostgreSQL connection string.
-DATABASE_URL = ""
+DATABASE_URL = "https://github.com/finovateglobal/scrapper_apis/tree/rbi_notification_api"
 
 # Create the SQLAlchemy engine and sessionmaker for PostgreSQL
 engine = create_engine(DATABASE_URL)
